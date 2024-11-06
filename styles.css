@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    background-color: rgb(255, 237, 204);
+}
+
+.container {
+    font-size: 20px;
+    font-weight: bold;
+    color: pink;
+    background: white;
+    opacity: 0.90;
+    max-width: 50%; 
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    border-color: brown;
+    background-color: rgb(155, 74, 155);
+}
+  
+.container2 {
+    text-align: left;
+    text-indent: 15px;
+    background: white;
+    opacity: 0.90;
+    max-width: 50%; 
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    border-color: brown;
+    background-color: tan;
+}
+
+button {
+    color: pink;
+    background-color: rgb(199, 101, 178);
+    border-color: purple;
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+}
+
+button:hover {
+    background-color: rgb(246, 123, 219);
+}
+
+.add {
+    background-color: DarkRed;
+}
+
+.add:hover {
+    background-color: red;
+}
+
+.sub {
+    background-color: blue;
+}
+
+.sub:hover {
+    background-color: cyan;
+}
+
+#commit {
+    border-radius: 100px;
+    height: 40px;
+    width: 80px;
+}
+
+#reset {
+    border-radius: 100px;
+    height: 40px;
+    width: 80px;
+}
+
+.cr {
+    padding-bottom: 10px;
+}
+
+.as {
+    padding-bottom: 5px;
+}
+
+.separate {
+    padding: 30px;
+}

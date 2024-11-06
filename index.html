@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <h1>Hot Or Cold?</h1>
+            </header>
+            <p id="record"></p>
+            <p id="guess">Current Guess: 50</p>
+            <p id="guess_log">Numbers Guessed: </p>
+            <p id="num_guesses">Guesses Remaining: 5</p>
+            <button id="commit" onclick="commit()">Commit</button>
+            <button id="reset" onclick="startGame()">Reset</button>
+            <div class="cr"></div>
+            <button class="add" onclick="addSub(1)">+1</button>
+            <button class="add" onclick="addSub(5)">+5</button>
+            <button class="add" onclick="addSub(10)">+10</button>
+            <button class="add" onclick="addSub(25)">+25</button>
+            <div class="as"></div>
+            <button class="sub" onclick="addSub(-1)">-1</button>
+            <button class="sub" onclick="addSub(-5)">-5</button>
+            <button class="sub" onclick="addSub(-10)">-10</button>
+            <button class="sub" onclick="addSub(-25)">-25</button>
+            <p id="winLose"></p>
+            <p id="answer"></p>
+        </div>
+       
+        <div class="separate"></div>
+
+        <div class="container2">
+            <head>
+                <h1>How to Play: </h1>
+                <h2>Guess the random number!</h2>
+                <p>1. Add and subtract to modify guess (number is from 1-100 inclusive)</p>
+                <p>2. Press "commit" to enter guess</p>
+                <p>3. Your guess will be given feedback according to the following criteria: 
+                    <ul>
+                        <li>Very Hot: Guess is within 5</li>
+                        <li>Hot: Guess is within 6-8</li>
+                        <li>Very Warm: Guess is within 9-15</li>
+                        <li>Warm: Guess is within 16-20</li>
+                        <li>Cool: Guess is within 21-30</li>
+                        <li>Very Cool: Guess is within 31-40</li>
+                        <li>Cold: Guess is within 41-55</li>
+                        <li>Very Cold: Guess is over 55 away</li>
+                    </ul>
+                </p>
+                <p>4. Each commit (except for "Very Hot") will use up a "guess". If you run out of guesses, you lose!</p>
+                <p>5. Guess the number correct and you win!</p>
+
+            </head>
+
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
